@@ -1,0 +1,32 @@
+{
+  "name": "font-choice-demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "rag:validate": "tsx ../rag/scripts/validate.ts ../rag/data/font_rag_full_local.jsonl",
+    "rag:search": "tsx ../rag/scripts/search.ts --data ../rag/data/font_rag_full_local.jsonl",
+    "rag:context": "tsx ../rag/scripts/build_context.ts --data ../rag/data/font_rag_full_local.jsonl",
+    "fonts:preview": "tsx ../visualizer/scripts/preview.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.0",
+    "ai": "^6.0.0",
+    "minisearch": "^7.1.2",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "request": "Нужна пара шрифтов для экспертного лендинга на русском: спокойно, понятно, профессионально, без ощущения бюрократии.",
+  "language": "ru",
+  "constraints": ["Google Fonts", "Cyrillic required"],
+  "text_roles": ["heading", "body", "button", "testimonial"]
+}

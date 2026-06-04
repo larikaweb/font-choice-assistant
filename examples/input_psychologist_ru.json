@@ -1,0 +1,6 @@
+{
+  "request": "Нужна типографика для сайта психолога на русском: мягко, доверительно, спокойно, но не слишком декоративно.",
+  "language": "ru",
+  "constraints": ["Google Fonts", "Cyrillic required"],
+  "text_roles": ["heading", "body", "button", "quote"]
+}

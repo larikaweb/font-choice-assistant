@@ -1,0 +1,5 @@
+interface:
+  display_name: "Font Choice"
+  short_description: "Helps choose readable, context-aware fonts and font pairs."
+  icon: "type"
+  primary_color: "#3B82F6"

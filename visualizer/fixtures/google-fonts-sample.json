@@ -1,0 +1,57 @@
+{
+  "kind": "webfonts#webfontList",
+  "items": [
+    {
+      "family": "Lora",
+      "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+      "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+      "category": "serif",
+      "axes": [
+        { "tag": "wght", "start": 400, "end": 700 }
+      ]
+    },
+    {
+      "family": "Manrope",
+      "variants": ["regular"],
+      "subsets": ["cyrillic", "latin", "latin-ext"],
+      "category": "sans-serif",
+      "axes": [
+        { "tag": "wght", "start": 200, "end": 800 }
+      ]
+    },
+    {
+      "family": "Inter",
+      "variants": ["regular"],
+      "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+      "category": "sans-serif",
+      "axes": [
+        { "tag": "opsz", "start": 14, "end": 32 },
+        { "tag": "wght", "start": 100, "end": 900 }
+      ]
+    },
+    {
+      "family": "Cormorant Garamond",
+      "variants": ["300", "regular", "500", "600", "700", "300italic", "italic", "500italic", "600italic", "700italic"],
+      "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+      "category": "serif"
+    },
+    {
+      "family": "Source Sans 3",
+      "variants": ["regular", "200", "300", "500", "600", "700", "800", "900", "italic", "200italic", "300italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+      "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+      "category": "sans-serif",
+      "axes": [
+        { "tag": "wght", "start": 200, "end": 900 }
+      ]
+    },
+    {
+      "family": "Playfair Display",
+      "variants": ["regular", "500", "600", "700", "800", "900", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
+      "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+      "category": "serif",
+      "axes": [
+        { "tag": "wght", "start": 400, "end": 900 }
+      ]
+    }
+  ]
+}

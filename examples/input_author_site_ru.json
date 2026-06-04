@@ -1,0 +1,6 @@
+{
+  "request": "Подбери шрифты для сайта автора фэнтези: атмосферно, книжно, немного загадочно, но текст должен оставаться читаемым.",
+  "language": "ru",
+  "constraints": ["Google Fonts", "Cyrillic required"],
+  "text_roles": ["heading", "body", "button", "quote"]
+}
