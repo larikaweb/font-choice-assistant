@@ -236,14 +236,6 @@ font-choice-assistant/
     output_mock_ru.md
 ```
 
-If the repository is still named `font-choice-assistant-mvp`, the folder name in this layout can remain as:
-
-```text
-font-choice-assistant-mvp/
-```
-
-If the repository is renamed, update this line to match the new repository name.
-
 ## Usage modes
 
 The repository can be used in several modes.
