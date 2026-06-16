@@ -1,6 +1,6 @@
 # Demo App
 
-Next.js demo for the Font Choice Assistant MVP.
+Optional Next.js integration demo for Font Choice Assistant.
 
 ## What it does
 
