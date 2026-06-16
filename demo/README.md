@@ -62,4 +62,20 @@ Debug endpoint for checking a pair of fonts without generating a full recommenda
 
 ## Notes
 
-The MVP intentionally does not include embeddings, a vector database, authentication, persistence, or a complex design editor. The goal is to make the typography logic transparent and portable.
+This optional demo intentionally does not include embeddings, a vector database, authentication, persistence, or a complex design editor.
+
+The goal is not to provide a mandatory full-stack application.
+
+The goal is to show how the portable typography logic can move through an implementation pipeline:
+
+```text
+user request
+-> RAG context
+-> prompt assembly
+-> LLM/mock recommendation
+-> font system extraction
+-> Google Fonts preview
+-> Cyrillic check
+```
+
+The prompt files, Skill package, RAG data, visualizer, examples, and documentation can be used independently from this demo.
